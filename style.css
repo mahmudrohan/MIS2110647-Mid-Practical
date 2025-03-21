@@ -185,3 +185,72 @@ nav ul li a:hover::after {
     margin-bottom: 20px;
 }
 
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.contact-form button {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+
+.contact-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.contact-images img {
+    width: 250px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+}
+
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: auto; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
