@@ -83,3 +83,37 @@ nav ul li a:hover::after {
     text-align: center;
     flex-grow: 1; 
 }
+.home-content h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    color: white; 
+}
+
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+}
+
+.home-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.home-images img {
+    width: 300px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px rgba(255, 193, 7, 0.8);
+}
+
+
